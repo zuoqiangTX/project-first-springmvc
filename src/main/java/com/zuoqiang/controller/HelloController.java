@@ -18,7 +18,7 @@ public class HelloController {
         logger.info("hello 方法被调用！");
         ModelAndView mv=new ModelAndView();
         mv.addObject("message","Hello World!");
-        mv.setViewName("/WEN-INF/views/hello.jsp");
+        mv.setViewName("hello");
         return mv;
     }
 
